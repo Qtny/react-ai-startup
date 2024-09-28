@@ -2,25 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+main {
+  @apply text-white-100 bg-black
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+header, footer, section {
+  @apply w-screen
 }
 
-html {
-  @apply text-white bg-black h-screen w-screen
+footer, section, nav {
+  @apply max-w-[1440px] px-4 lg:px-12
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,3 +23,7 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;}}
