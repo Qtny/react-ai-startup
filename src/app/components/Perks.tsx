@@ -5,7 +5,7 @@ import React from "react";
 
 const Perks = () => {
   return (
-    <section className="flex flex-col gap-8 justify-center items-center pb-20">
+    <section className="flex flex-col gap-8 justify-center items-center">
       <h2 className="text-xl md:text-2xl font-medium text-center md:w-[440px]">Harness the power of AI, making search engine optimization intuitive and effective for all skill levels</h2>
 
       <div className="flex flex-col gap-4 w-full">

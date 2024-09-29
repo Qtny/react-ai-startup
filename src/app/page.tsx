@@ -1,3 +1,4 @@
+import Capabilities from "./components/Capabilities";
 import Headers from "./components/Headers";
 import Hero from "./components/Hero";
 import Perks from "./components/Perks";
@@ -12,6 +13,9 @@ export default function Home() {
       </div>
       <Testimony />
       <Perks />
+      <div className="w-full flex items-center justify-center bg-gradient-to-r from-primary-100 to-black">
+        <Capabilities />
+      </div>
     </main>
   );
 }
