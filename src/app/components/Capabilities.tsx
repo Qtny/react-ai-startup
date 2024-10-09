@@ -11,7 +11,7 @@ const Capabilities = () => {
         {capabilities.map((capability) => {
           return (
             <div className="space-y-4" key={capability.title}>
-              <div className="flex gap-1 text-white-100">
+              <div className="flex gap-1 text-white-100 items-center justify-start">
                 <Image height={20} width={20} alt={capability.title} src={capability.path} />
 
                 <h5 className="text-xs font-medium">{capability.title}</h5>

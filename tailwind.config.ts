@@ -21,6 +21,7 @@ const config: Config = {
           500: "#9855FF",
           600: "#141315",
           700: "#B372CF",
+          800: "#8C45FF",
         },
       },
       fontFamily: {

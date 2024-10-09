@@ -25,7 +25,7 @@ const Clients = () => {
   };
 
   return (
-    <section className="pb-20 w-full flex flex-col justify-center items-center">
+    <section className="w-full flex flex-col justify-center items-center">
       <div className="flex flex-col w-full justify-center items-center gap-4">
         <h1 className="font-medium md:text-5xl text-xl">Our clients</h1>
 
@@ -34,7 +34,7 @@ const Clients = () => {
 
       <div className="flex max-md:flex-col w-full justify-center items-center gap-2">
         <div className="size-72 md:h-72 md:w-full relative">
-          <div className="absolute size-full md:px-32 flex border">
+          <div className="absolute size-full md:px-32 flex">
             <div className="flex justify-center items-center w-full">
               <div className="h-full w-[1px] bg-gradient-to-b from-transparent via-white-100 to-transparent" />
 

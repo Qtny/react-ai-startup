@@ -11,7 +11,7 @@ const Testimony = () => {
         {testimonies.map((testimony) => {
           // return <div key={testimony.path}></div>
           return (
-            <div key={testimony.path} className="rounded-md border border-white-10 md:px-3 px-2 w-auto h-20 md:h-28 flex justify-center items-center">
+            <div key={testimony.path} className="rounded-md border border-white-10 md:px-5 px-2 w-auto h-20 md:h-28 flex justify-center items-center">
               <Image src={testimony.path} height={0} width={0} sizes="100vw" alt="testimony images" className="w-full h-auto" />
             </div>
           );

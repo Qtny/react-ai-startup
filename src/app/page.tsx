@@ -3,6 +3,7 @@ import Clients from "./components/Clients";
 import Headers from "./components/Headers";
 import Hero from "./components/Hero";
 import Perks from "./components/Perks";
+import Pricing from "./components/Pricing";
 import Testimony from "./components/Testimony";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Capabilities />
       </div>
       <Clients />
+      <Pricing />
     </main>
   );
 }
