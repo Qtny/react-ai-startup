@@ -1,4 +1,5 @@
 import Capabilities from "./components/Capabilities";
+import Clients from "./components/Clients";
 import Headers from "./components/Headers";
 import Hero from "./components/Hero";
 import Perks from "./components/Perks";
@@ -16,6 +17,7 @@ export default function Home() {
       <div className="w-full flex items-center justify-center bg-gradient-to-r from-primary-100 to-black">
         <Capabilities />
       </div>
+      <Clients />
     </main>
   );
 }
