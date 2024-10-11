@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 const Pricing = () => {
   const [switchState, setSwitchState] = useState(false);
   return (
-    <section className="pb-20 flex flex-col justify-center items-center gap-12">
+    <section className="flex flex-col justify-center items-center gap-12">
       <div className="flex flex-col w-full justify-center items-center gap-4 px-3 text-center">
         <h1 className="font-medium md:text-5xl text-xl">Pricing</h1>
 
