@@ -10,6 +10,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         white: {
           10: "#FFFFFF26",
+          50: "#FFFFFF80",
           70: "#FFFFFFB3",
           100: "#FFFFFF",
         },

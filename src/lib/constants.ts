@@ -111,3 +111,22 @@ export const pricing = [
     ],
   },
 ];
+
+export const footer = [
+  {
+    title: "Product",
+    subFeatures: ["Features", "Integration", "Updates", "FAQ", "Pricing"]
+  },
+  {
+    title: "Company",
+    subFeatures: ["About", "Blog", "Careers", "Manifesto", "Press", "Contact"]
+  },
+  {
+    title: "Resources",
+    subFeatures: ["Examples", "Community", "Guides", "Docs", "Press"]
+  },
+  {
+    title: "Legal",
+    subFeatures: ["Privacy", "Terms", "Security"]
+  },
+]
